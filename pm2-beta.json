@@ -1,0 +1,13 @@
+{
+  "apps": [
+    {
+      "name": "zakipish-beta-logux",
+      "script": "ts-node",
+      "args": "./index.ts",
+      "watch": false,
+      "env": {
+        "NODE_ENV": "beta"
+      }
+    }
+  ]
+}

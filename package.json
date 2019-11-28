@@ -1,0 +1,21 @@
+{
+  "name": "logux-chat-server",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "license": "MIT",
+  "scripts": {
+    "serve": "ts-node index.ts"
+  },
+  "dependencies": {
+    "@logux/server": "^0.5.1",
+    "dotenv": "^8.1.0",
+    "jwt-simple": "latest",
+    "pg": "^7.12.1",
+    "pg-promise": "^9.3.3",
+    "typescript": "^3.7.2"
+  },
+  "devDependencies": {
+    "@types/pg": "^7.11.2",
+    "@types/pg-promise": "^5.4.3"
+  }
+}
